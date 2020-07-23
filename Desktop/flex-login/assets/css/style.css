@@ -1,0 +1,292 @@
+.page-container{
+
+background: linear-gradient( to left, #285466,#5c2a4e);
+margin: 10%;
+height: 70vh;
+
+}
+
+*{
+
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+
+.check-a{
+
+text-align: right;
+
+}
+
+body{
+
+    background: linear-gradient( to left, #285466,#5c2a4e);
+
+
+}
+
+.page-login{
+
+display: flex;
+height: 100%;
+z-index: 1;
+
+
+}
+
+.login{
+
+background-color: rgb(248, 247, 244);
+padding: 50px;
+width: 70%;
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+box-shadow: 4px 4px 4px 4px black;
+
+}
+
+.signup{
+
+    background-color: rgb(42, 4, 156);
+    padding: 50px;
+    width: 100%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+
+}
+
+
+.login-img{
+
+    padding-top: 40px;
+    width: 145px;
+    background-color: rgb(238, 101, 77);
+    text-align: center;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 50%;
+    border: 5px solid lightgrey;
+    box-shadow: 4px 4px 4px 1px rgb(7, 7, 7);
+    margin: auto;
+    margin-top: 46px;
+}
+
+
+
+
+
+.login-img h2{
+
+    font-size: 13px;
+    position: relative;
+    bottom: 11px;
+}
+
+.login-form{
+
+padding-top: 8%;
+padding-left: 15%;
+}
+
+.login-form p{
+
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.username{
+
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    transition: .5s;
+}
+
+
+.password{
+
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    transition: .5s;
+}
+
+.username:focus{
+
+border-bottom-color: tomato;
+}
+
+.password:focus{
+
+    border-bottom-color: tomato;
+
+}
+
+
+.login-btn{
+
+    padding: 5%;
+    width: 130px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(9, 9, 212);
+    border-radius: 25px;
+    transition: .3s;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* .log-div{
+
+}
+
+.log-div-22{
+
+ 
+
+
+}
+
+
+.log-div a{
+
+
+
+} */
+
+/* .checkbox{
+
+    display: flex;
+    
+    } */
+
+/* .log-check{
+
+    width: 140px;
+
+} */
+
+
+.login-btn:focus{
+
+    background-color: rgb(238, 90, 36);
+}
+
+
+.password{
+
+
+width: 18vw;    
+}
+
+.siing{
+
+width: 17vw;
+
+}
+
+.signing{
+
+   padding: 1%;
+   margin: 16px 156px 16px 156px;
+   display: inline-block;
+
+}
+
+@media screen and (max-width: 750px){
+
+    .signup{
+
+        display: none;
+
+    }
+
+
+    .username{
+
+
+        width: 175px;
+        height: 65px;
+    }
+
+    .page-container {
+        background: linear-gradient( to left, #285466,#5c2a4e);
+        margin: 10%;
+        height: 100%;
+    }
+
+    .login-form {
+        padding-top: 8%;
+        padding-left: 10%;
+    }
+
+    .login{
+
+        background-color: rgb(248, 247, 244);
+        padding: 50px;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        box-shadow: 4px 4px 4px 4px black;
+        
+    }
+
+    
+    .login-img{
+
+        padding-top: 40px;
+        width: 145px;
+        background-color: rgb(238, 101, 77);
+        text-align: center;
+        width: 15vw;
+        height: 4vh;
+        border-radius: 50%;
+        border: 5px solid lightgrey;
+        box-shadow: 4px 4px 4px 1px rgb(7, 7, 7);
+        margin: auto;
+        margin-top: auto;
+        margin-top: 46px;
+
+    }
+
+    .login-img h2{
+
+        font-size: 13px;
+        position: relative;
+        bottom: 0.6rem;
+
+    }
+
+    .password{
+        height: 65px;
+        width: 175px;
+        text-align: center;
+        border-radius: 20px;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-left-color: transparent;
+        transition: .5s;}
+}
+
+
+/* .checkbox{
+
+display: flex;
+
+} */
